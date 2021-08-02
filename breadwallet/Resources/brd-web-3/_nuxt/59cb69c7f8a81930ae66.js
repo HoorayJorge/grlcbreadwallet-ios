@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{1153:function(e,t,o){"use strict";o.r(t);o(32);var r={created:function(){var e="/exchange?mode=buy";this.$route.query&&this.$route.query.to&&(e=this.$route.query.to),this.$router.replace(e)},render:function(e){return e("div")}},u=o(0),n=Object(u.a)(r,void 0,void 0,!1,null,null,null);n.options.__file="link.vue";t.default=n.exports}}]);
+//# sourceMappingURL=59cb69c7f8a81930ae66.js.map

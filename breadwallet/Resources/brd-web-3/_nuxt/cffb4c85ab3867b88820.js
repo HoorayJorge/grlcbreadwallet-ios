@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{1147:function(n,o,e){"use strict";e.r(o);e(32);var r={mounted:function(){this.$router.replace("/order-history")},render:function(n){return n("div")}},t=e(0),i=Object(t.a)(r,void 0,void 0,!1,null,null,null);i.options.__file="history.vue";o.default=i.exports}}]);
+//# sourceMappingURL=cffb4c85ab3867b88820.js.map

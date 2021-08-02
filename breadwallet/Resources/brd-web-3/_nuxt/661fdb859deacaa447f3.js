@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{1150:function(e,n,i){"use strict";i.r(n);i(32);var o={created:function(){this.$router.replace("/exchange/buy")},render:function(e){return e("div")}},t=i(0),u=Object(t.a)(o,void 0,void 0,!1,null,null,null);u.options.__file="index.vue";n.default=u.exports}}]);
+//# sourceMappingURL=661fdb859deacaa447f3.js.map
