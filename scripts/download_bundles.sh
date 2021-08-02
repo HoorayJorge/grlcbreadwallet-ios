@@ -3,13 +3,13 @@
 
 function downloadBundle() {
     bundle_name="$1-staging"
-    host="stage2.breadwallet.com"
+    host="grlcbreadwallet.s3.ca-central-1.amazonaws.com"
     if [[ "$2" == "prod" ]]; then
       bundle_name="$1"
       host="api.breadwallet.com"
     fi
     echo "Downloading ${bundle_name}.tar from ${host}..."
-    curl --silent --show-error --output "breadwallet/Resources/${bundle_name}.tar" https://${host}/assets/bundles/${bundle_name}/download
+    curl --silent --show-error --output "breadwallet/Resources/${bundle_name}.tar" https://${host}/grlcbread-assets/${bundle_name}.tar
 }
 
 plistBuddy="/usr/libexec/PlistBuddy"
