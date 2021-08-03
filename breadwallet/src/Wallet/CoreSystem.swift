@@ -118,11 +118,6 @@ class CoreSystem: Subscriber, Trackable {
                                                        type: $0.type,
                                                        decimals: $0.decimals)
                 }
-                /*currencyModels = currencyModels.append(System.asBlockChainDBModelCurrency(uids: "ethereum-mainnet:0x58f7345b5295E43aA454911571f13be186655BE9",
-                                                                  name: "Wrapped Garlicoin",
-                                                                  code: "wgrlc",
-                                                                  type: "erc20",
-                                                                  decimals: 18))*/
                 self.system?.configure(withCurrencyModels: currencyModels)
             }
         }
